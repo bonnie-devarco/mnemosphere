@@ -1,10 +1,100 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
-    <title>Mnemosphere</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mnemosphere | A Living Digital Memory Palace</title>
+    <meta
+      name="description"
+      content="Mnemosphere is a living archive of memory, symbolic form, design science, and connective intelligence."
+    >
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Mnemosphere</h1>
-    <p>A living digital memory palace is beginning here.</p>
+    <div class="page">
+      <header class="topbar">
+        <a class="brand" href="index.html" aria-label="Mnemosphere home">
+          <span class="sigil">M</span>
+          <span class="brand-name">Mnemosphere</span>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="about.html">About</a>
+          <a href="connective-intelligence.html">Connective Intelligence</a>
+          <a href="writings.html">Writings</a>
+          <a href="presentations.html">Presentations</a>
+          <a href="archive.html">Archive</a>
+          <a href="links.html">Links</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-label="Introduction">
+          <div>
+            <p class="kicker">Ars Memoriae for connective intelligence</p>
+            <h1>Mnemosphere</h1>
+            <p class="lede">
+              A living digital memory palace for symbolic form, design science,
+              cultural memory, and the patterns that help knowledge become
+              navigable.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="about.html">Enter the field</a>
+              <a class="button" href="archive.html">Explore the archive</a>
+            </div>
+          </div>
+
+          <figure class="memory-map" aria-label="Abstract memory map">
+            <span class="line a"></span>
+            <span class="line b"></span>
+            <span class="line c"></span>
+            <span class="node one"></span>
+            <span class="node two"></span>
+            <span class="node three"></span>
+            <span class="node four"></span>
+            <figcaption class="map-label">
+              Memory as architecture: places, signs, images, and relations held
+              in a shared field of attention.
+            </figcaption>
+          </figure>
+        </section>
+
+        <section aria-labelledby="rooms-title">
+          <div class="section-head">
+            <h2 id="rooms-title">Rooms</h2>
+            <p class="section-note">
+              The site is organized as a set of chambers for essays, talks,
+              sources, and connective paths.
+            </p>
+          </div>
+          <div class="card-grid">
+            <a class="card" href="connective-intelligence.html">
+              <span class="meta">Field</span>
+              <h3>Connective Intelligence</h3>
+              <p>Notes on shared sensemaking, networked cognition, and living systems of knowledge.</p>
+            </a>
+            <a class="card" href="writings.html">
+              <span class="meta">Essays</span>
+              <h3>Writings</h3>
+              <p>Future essays, fragments, and meditations on memory, media, and symbolic form.</p>
+            </a>
+            <a class="card" href="presentations.html">
+              <span class="meta">Talks</span>
+              <h3>Presentations</h3>
+              <p>Slide decks, abstracts, PDF downloads, notes, and related references.</p>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <span>Mnemosphere</span>
+        <div class="footer-links">
+          <a class="inline-link" href="https://github.com/bonnie-devarco/mnemosphere">GitHub</a>
+          <a class="inline-link" href="archive.html">Archive</a>
+          <a class="inline-link" href="links.html">Links</a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
